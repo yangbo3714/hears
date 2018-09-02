@@ -1,10 +1,5 @@
 <template>
-  <div id="app">
-   <AppHeader></AppHeader>
-    <div class="container-fluid">
-      <div class="row">
-       <AppAside></AppAside>
-          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+       <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h2 class="sub-header">Hero List</h2>
           <a class="btn btn-success" href="add.html">Add</a>
           <div class="table-responsive">
@@ -216,40 +211,12 @@
             </table>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
 </template>
 
-
-
 <script>
-// import router from 'vue-router'
-
-import AppHeader from './component/AppHeader.vue'
-import AppAside from './component/AppAside.vue'
-
-import Hear from './views/hear/live.vue'
-import Wuqi from './views/wuqi/live.vue'
-import Zhangbei from './views/zhuangbei/live.vue'
-
-
-// Vue.user(router)
-
-export default {
-  name: 'app',
-  data () {
-    return {
-     
-    }
-  },
-  components:{
-    AppHeader:AppHeader,
-    AppAside:AppAside
-  }
-}
+    
 </script>
-
 <style>
 
 </style>
+
